@@ -16,10 +16,10 @@ from selenium.common.exceptions import (
     NoAlertPresentException,
 )
 
-from util.clipboard import ClipBoard
-from util.keyboard import KeyBoard
-from util.parseConFile import ParseConFile
-from util.parseExcelFile import ParseExcel
+from PytestAutoTestFrameWork.util.clipboard import ClipBoard
+from PytestAutoTestFrameWork.util.keyboard import KeyBoard
+from PytestAutoTestFrameWork.util.parseConFile import ParseConFile
+from PytestAutoTestFrameWork.util.parseExcelFile import ParseExcel
 
 
 class BasePage(object):

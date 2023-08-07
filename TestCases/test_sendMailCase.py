@@ -9,7 +9,7 @@
 """
 import pytest
 
-from data.send_mail_data import SendMailData
+from PytestAutoTestFrameWork.data.send_mail_data import SendMailData
 
 
 @pytest.mark.sendMailTest

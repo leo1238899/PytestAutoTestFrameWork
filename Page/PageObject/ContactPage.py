@@ -7,8 +7,8 @@
 @Motto: Real warriors,dare to face the bleak warning,dare to face the incisive error!
 ------------------------------------
 """
-from Page.BasePage import BasePage
-from util.parseConFile import ParseConFile
+from PytestAutoTestFrameWork.Page.BasePage import BasePage
+from PytestAutoTestFrameWork.util.parseConFile import ParseConFile
 
 
 class ContactPage(BasePage):

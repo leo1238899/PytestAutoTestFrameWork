@@ -9,7 +9,7 @@
 """
 import pytest
 
-from data.contact_data import ContactData
+from PytestAutoTestFrameWork.data.contact_data import ContactData
 
 
 @pytest.mark.conatctTest

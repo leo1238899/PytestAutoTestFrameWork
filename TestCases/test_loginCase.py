@@ -9,7 +9,7 @@
 """
 import pytest
 
-from data.login_data import LoginData
+from PytestAutoTestFrameWork.data.login_data import LoginData
 
 
 @pytest.mark.loginTest

@@ -8,7 +8,7 @@
 ------------------------------------
 """
 import configparser
-from config.conf import CONF_PATH
+from PytestAutoTestFrameWork.config.conf import CONF_PATH
 
 
 class ParseConFile(object):

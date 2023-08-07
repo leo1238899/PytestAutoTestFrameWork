@@ -8,7 +8,7 @@
 ------------------------------------
 """
 from openpyxl import load_workbook
-from config.conf import DATA_Path
+from PytestAutoTestFrameWork.config.conf import DATA_Path
 
 
 class ParseExcel(object):

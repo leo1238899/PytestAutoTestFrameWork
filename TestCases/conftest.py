@@ -9,11 +9,11 @@
 """
 import pytest
 
-from Page.PageObject.LoginPage import LoginPage
-from Page.PageObject.HomePage import HomePage
-from Page.PageObject.ContactPage import ContactPage
-from Page.PageObject.SendMailPage import SendMailPage
-from util.parseConFile import ParseConFile
+from PytestAutoTestFrameWork.Page.PageObject.LoginPage import LoginPage
+from PytestAutoTestFrameWork.Page.PageObject.HomePage import HomePage
+from PytestAutoTestFrameWork.Page.PageObject.ContactPage import ContactPage
+from PytestAutoTestFrameWork.Page.PageObject.SendMailPage import SendMailPage
+from PytestAutoTestFrameWork.util.parseConFile import ParseConFile
 
 
 do_conf = ParseConFile()
